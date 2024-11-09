@@ -1,0 +1,253 @@
+/* CSS Document */
+BODY  {
+	background-color :#EFFFEF;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;  
+	font-size:11px;
+	background-image:url(../images/background.jpg);
+	background-repeat:repeat;
+}
+h2{
+	text-align: center;
+}
+.jarak{
+	padding-right: 10px;
+}
+.border  { border: 1px solid #3B884B; }
+.BorderUtama  { border: 1px solid #AFD2ED;} 
+ 
+TR.ListUtama{
+	background-color:#DEE6F5;	
+	font-family:Tahoma, Arial, Helvetica, sans-serif; 
+	}
+TR.ListUtama:hover{
+background-color:#EEF2F9;
+}
+TR.ListText{
+	background-color:#D0E2F0;	
+	font-family:Tahoma, Arial, Helvetica, sans-serif; 
+	}
+TR.ListBack {
+	background:url(../images/list.png);
+	background-repeat:repeat;
+}
+TD {
+	font-family :Tahoma, Arial, Helvetica, sans-serif; 
+	font-size : 11px;
+}
+
+
+TH {
+	font-family :Tahoma, Arial, Helvetica, sans-serif; 
+	font-size : 11px;
+	background-color:#9CC4E0;
+}
+
+TD.HEAD {
+	font-family : Tahoma, Arial, Helvetica, sans-serif; 
+	font-size : 11px;
+	COLOR: #FFFFFF; 
+}
+
+TD.UTAMA {
+	font-family :Tahoma, Arial, Helvetica, sans-serif; 
+	font-size : 11px;
+	border: 1px solid #3B884B; 
+}
+.HEADWARNA {
+	background-color:#5E99C6;
+	font-family : Tahoma, Arial, Helvetica, sans-serif; 
+	font-size : 13px;
+	COLOR: #FFFFFF; 
+	border-bottom: 1px solid red;
+}
+.FOOTWARNA {
+	border-bottom: 1px dotted #84B9D5;
+}
+
+.table-list {
+	clear: both;
+	text-align: left;
+	border-collapse: collapse;
+	margin: 0px 0px 10px 0px;
+	background:#fff;	
+}
+
+.table-list th {
+color: #333; font-size: 12px; font-weight: 700; margin: 2px 2px 2px 2px; padding: 5px 5px; background: url(../images/list.png) repeat-x top #fff; border-bottom: 1px solid #CCC; border-top: 2px solid #FF9900;
+	
+}
+.table-list td {	
+	color: #333;
+	font-size:12px;
+	border-color: #fff;
+	border-collapse: collapse;
+	vertical-align: center;
+	padding: 3px 5px;
+	border-bottom:1px #CCCCCC solid;
+}
+
+INPUT, TEXTAREA,SELECT { 
+	BORDER-TOP-WIDTH: 1px; 
+	BORDER-LEFT-WIDTH: 1px; 
+	BORDER-BOTTOM-WIDTH: 1px; 
+	BORDER-RIGHT-WIDTH: 1px; 
+	
+	BORDER-LEFT-COLOR: #ABDF95; 
+	BORDER-BOTTOM-COLOR: #ABDF95; 
+	BORDER-TOP-COLOR: #ABDF95; 
+	BORDER-RIGHT-COLOR: #ABDF95; 
+	
+		
+	FONT: 11px Arial; 
+	COLOR: #333333; 
+}
+a:link {
+	color: #1294d2;
+	text-decoration: none;
+}
+a:visited {
+	color: #1294d2;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+a:active {
+	color: #0000FF;
+	text-decoration: none;
+}
+A.katlink:link {
+	PADDING-RIGHT: 1px; 
+	PADDING-LEFT: 1px; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	PADDING-BOTTOM: 1px; 
+	COLOR: #1294d2;
+	PADDING-TOP: 1px; 
+	FONT-FAMILY: arial
+}
+A.katlink:visited {
+	PADDING-RIGHT: 2px; 
+	PADDING-LEFT: 2px; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	PADDING-BOTTOM: 2px; 
+	COLOR: #1294d2; 
+	PADDING-TOP: 2px; 
+	FONT-FAMILY: arial
+}
+A.katlink:hover {
+	PADDING-RIGHT: 2px; 
+	PADDING-LEFT: 2px; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	PADDING-BOTTOM: 2px; 
+	COLOR: #333C61; 
+	PADDING-TOP: 2px; 
+	FONT-FAMILY: arial; 
+	TEXT-DECORATION: none
+}
+
+A.katlink2:link {
+	PADDING-RIGHT: 2px; 
+	PADDING-LEFT: 2px; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	PADDING-BOTTOM: 2px; 
+	COLOR: #1294d2; 
+	PADDING-TOP: 2px; 
+	FONT-FAMILY: arial
+}
+A.katlink2:visited {
+	PADDING-RIGHT: 2px; 
+	PADDING-LEFT: 2px; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	PADDING-BOTTOM: 2px; 
+	COLOR: #1294d2; 
+	PADDING-TOP: 2px; 
+	FONT-FAMILY: arial
+}
+A.katlink2:hover {
+	PADDING-RIGHT: 2px; 
+	PADDING-LEFT: 2px; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	PADDING-BOTTOM: 2px; 
+	COLOR: #1294d2; 
+	PADDING-TOP: 2px; 
+	FONT-FAMILY: arial; 
+	TEXT-DECORATION: none
+}
+/*css lain*/
+td.registrasi p{
+    font-size: 15px;
+    clear:both;
+    margin: 0;
+    color:gray;
+    padding:4px;
+}
+td.registrasi legend
+{
+    color: #000;
+    padding:2px;
+    margin-left: 14px;
+    font-weight:bold;
+    font-size: 17px;
+    font-weight:100;
+}
+td.registrasi label{
+    color:#444;
+    width:98px;
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+}
+td.registrasi input{
+    width: 140px;
+    color: #505050;
+    float: left;
+    margin-right: 5px;
+}
+td.registrasi input.long{
+    width: 247px;
+    color: #505050;
+}
+td.registrasi input[type=radio]
+{
+    float:left;
+    width:15px;
+}
+td.registrasi label.gender{
+    margin-top:-1px;
+    margin-bottom:2px;
+    width:34px;
+    float:left;
+    text-align:left;
+    line-height:19px;
+}
+td.registrasi input[type=text]
+{
+    border: 1px solid #E1E1E1;
+    height: 18px;
+}
+td.registrasi textarea
+{
+    border: 1px solid #E1E1E1;
+    height: 50px;
+}
+td.registrasi input[type=checkbox] {
+    width:14px;
+    margin-top:4px;
+}
+td.registrasi select
+{
+    border: 1px solid #E1E1E1;
+    width: 130px;
+    float:left;
+    margin-bottom:3px;
+    color: #505050;
+    margin-right:5px;
+}
